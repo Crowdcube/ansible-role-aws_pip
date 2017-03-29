@@ -11,7 +11,7 @@ None
 Dependencies
 ------------
 
-* [darkraiden.ansible-pip](https://galaxy.ansible.com/darkraiden/ansible-pip)
+* [ansible-role-pip](https://github.com/Crowdcube/ansible-role-pip)
 
 Role Variables
 --------------
@@ -112,7 +112,7 @@ Example Playbook
 ```
     - hosts: all
       roles:
-         - { role: darkraiden.ansible-aws_cli }
+         - ansible-role-aws_pip
 ```
 
 License
@@ -123,4 +123,4 @@ BSD
 Author Information
 ------------------
 
-An optional sectiThis role was created in 2017 by [Davide Di Mauro](https://github.com/darkraiden).on for the role authors to include contact information, or a website (HTML is not allowed).
+An optional sectiThis role was created in 2017 by [Davide Di Mauro](https://github.com/darkraiden).
