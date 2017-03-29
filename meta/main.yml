@@ -1,10 +1,10 @@
 dependencies:
-  - darkraiden.ansible-pip
-
+  - ansible-role-pip
+  
 galaxy_info:
   author: darkraiden
   description: Install pip AWS cli
-  company: ""
+  company: Crowdcube ltd
   license: BSD
   min_ansible_version: 2.0
   platforms:
